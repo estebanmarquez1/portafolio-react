@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    bottom: 2rem;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(1.5rem);
+}
+
+nav a {
+    background-color: transparent;
+    padding: 0.9rem;
+}
+
+nav a:hover {
+    background-color: var(--color-bg-variant);
+    border-radius: 50%;
+    /* border-right: .5rem solid var(--color-bg-variant);
+    border-left: .5rem solid var(--color-bg-variant); */
+    transform: translateY(-0.3rem);
+    /* transition: border-right 150ms ease, border-left 150ms ease, border-radius 300ms ease; */
+}
+
+.active {
+    background-color: var(--color-bg-variant);
+    border-radius: 50%;
+    /* border-right: .5rem solid var(--color-bg-variant);
+    border-left: .5rem solid var(--color-bg-variant); */
+    transform: translateY(-0.3rem);
+    /* transition: border-right 150ms ease, border-left 150ms ease, border-radius 300ms ease; */
+}
+
+.oculta {
+    visibility: hidden;
+    transition: 0;
+}
