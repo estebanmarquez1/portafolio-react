@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './portfolio.css'
-// import {TbWorld} from 'react-icons/tb'
-// import {FaGithub} from 'react-icons/fa'
+import {TbWorld} from 'react-icons/tb'
+import {FaGithub} from 'react-icons/fa'
 import {FaSass} from 'react-icons/fa'
 import {SiPhp} from 'react-icons/si'
 import HeaderBienesRaicesWebp from '../../assets/headerBienesRaices.webp'
@@ -56,8 +56,8 @@ import Modal from '../modal/Modal'
             </picture>
         </div>
           <h3>Bienes Raíces</h3>
-          {/* <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
-          <a href="#" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a> */}
+           <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+          <a href="#" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a> 
           
               
         </article>
@@ -81,8 +81,8 @@ import Modal from '../modal/Modal'
             </picture>
         </div>
           <h3>Página para terapeuta</h3>
-          {/* <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
-          <a href="#" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a> */}
+          <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+          <a href="#" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
         </article>
 
 
