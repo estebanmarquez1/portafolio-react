@@ -50,9 +50,12 @@
 
 .portfolio__item-modal--content {
     padding: 2rem;
-    position: sticky;
-    top: 0;
-    left: 0;
+    & p {
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding-top: 1rem;
+    }
 }
 
 .overlay {
