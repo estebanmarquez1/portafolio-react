@@ -1,10 +1,8 @@
 import './experience.css'
-import {IoLogoJavascript} from 'react-icons/io'
-import {IoLogoCss3} from 'react-icons/io'
+import {IoLogoJavascript, IoLogoCss3} from 'react-icons/io'
+import { SiTailwindcss, SiPhp} from "react-icons/si";
 import {GrReactjs} from 'react-icons/gr'
 import {FaSass} from 'react-icons/fa'
-import {FaBootstrap} from 'react-icons/fa'
-import {SiPhp} from 'react-icons/si'
 import MysqlIconPng from '../../assets/mysql-icon.svg'
 
 const Experience = () => {
@@ -50,9 +48,9 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-            <FaBootstrap className='experience__details-icon bootstrap'/>
+            <SiTailwindcss className='experience__details-icon react'/>
               <div>
-              <h4>Bootstrap</h4>
+              <h4>Tailwind CSS</h4>
               <p className='sentence'>Experimentado</p>
               </div>
             </article>

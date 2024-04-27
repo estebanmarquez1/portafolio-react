@@ -57,7 +57,7 @@ import Modal from '../modal/Modal'
         </div>
           <h3>Bienes Raíces</h3>
            <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
-          <a href="#" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a> 
+          <a href="https://github.com/estebanmarquez1/bienesraices" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a> 
           
               
         </article>
@@ -82,7 +82,7 @@ import Modal from '../modal/Modal'
         </div>
           <h3>Página para terapeuta</h3>
           <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
-          <a href="#" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
+          <a href="https://github.com/estebanmarquez1/therapywebsite" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
         </article>
 
 

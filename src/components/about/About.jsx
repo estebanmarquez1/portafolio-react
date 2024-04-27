@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <TbAwardFilled className='about__icon' />
               <h5>Experiencia</h5>
-              <p className='sentence'>3+ Years Experience</p>
+              <p className='sentence'>1+ Years Experience</p>
             </article>
 
 
@@ -30,7 +30,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className='about__icon' />
               <h5>Proyectos</h5>
-              <p className='sentence'>30+ projects</p>
+              <p className='sentence'>Many projects</p>
             </article>
           </div>
             <p>
