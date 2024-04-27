@@ -3,8 +3,11 @@
 }
 
 .portfolio__container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    place-items: center;
     gap: 1rem;
 }
 

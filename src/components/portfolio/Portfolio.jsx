@@ -11,6 +11,8 @@ import HeaderTherapyWebp from '../../assets/headerTherapy.webp'
 import HeaderTherapyPng from '../../assets/headerTherapy.png'
 import HeaderPacientesWebp from '../../assets/headerPacientes.webp'
 import HeaderPacientesPng from '../../assets/headerPacientes.png'
+import HeaderTiendaWebp from '../../assets/headerTienda.webp'
+import HeaderTiendaPng from '../../assets/headerTienda.png'
 import MysqlIconPng from '../../assets/mysql-icon.svg'
 import Modal from '../modal/Modal'
 
@@ -102,8 +104,26 @@ import Modal from '../modal/Modal'
             </picture>
         </div>
           <h3>Administrador de Pacientes con React</h3>
-          <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
-          <a href="https://github.com/estebanmarquez1/therapywebsite" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
+          <a href="https://662d6a04a1df6c263238b19b--coruscating-halva-15190c.netlify.app/" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+          <a href="https://github.com/estebanmarquez1/administradorPacientes" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
+        </article>
+
+        <article className="portfolio__item">
+        <div className="portfolio__item-image">
+          <div className='portfolio__item-description'>
+              <div className='portfolio__item-techIcons'>
+                <GrReactjs className='experience__details-icon react'/>
+              </div>
+            </div>
+        <picture>
+            <source srcSet={HeaderTiendaWebp} type='image/webp'/>
+            <source srcSet={HeaderTiendaPng} type='image/png'/> 
+            <img src={HeaderTiendaPng} alt="Frontpage Therapy" />
+            </picture>
+        </div>
+          <h3>MiniTienda con React</h3>
+          <a href="https://fluffy-sfogliatella-c91513.netlify.app/" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+          <a href="https://github.com/estebanmarquez1/GuitarLA-TypeScript" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
         </article>
 
 
