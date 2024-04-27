@@ -52,7 +52,7 @@ header {
     margin: 4rem auto;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 3.1rem 1.5rem 5rem 1.5rem;
+    padding-top: .8rem;
 
     & .me__image {
         width: 100%;

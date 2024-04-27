@@ -4,10 +4,13 @@ import {TbWorld} from 'react-icons/tb'
 import {FaGithub} from 'react-icons/fa'
 import {FaSass} from 'react-icons/fa'
 import {SiPhp} from 'react-icons/si'
+import {GrReactjs} from 'react-icons/gr'
 import HeaderBienesRaicesWebp from '../../assets/headerBienesRaices.webp'
 import HeaderBienesRaicesPng from '../../assets/headerBienesRaices.png'
 import HeaderTherapyWebp from '../../assets/headerTherapy.webp'
 import HeaderTherapyPng from '../../assets/headerTherapy.png'
+import HeaderPacientesWebp from '../../assets/headerPacientes.webp'
+import HeaderPacientesPng from '../../assets/headerPacientes.png'
 import MysqlIconPng from '../../assets/mysql-icon.svg'
 import Modal from '../modal/Modal'
 
@@ -81,6 +84,24 @@ import Modal from '../modal/Modal'
             </picture>
         </div>
           <h3>Página para terapeuta</h3>
+          <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+          <a href="https://github.com/estebanmarquez1/therapywebsite" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
+        </article>
+
+        <article className="portfolio__item">
+        <div className="portfolio__item-image">
+          <div className='portfolio__item-description'>
+              <div className='portfolio__item-techIcons'>
+                <GrReactjs className='experience__details-icon react'/>
+              </div>
+            </div>
+        <picture>
+            <source srcSet={HeaderPacientesWebp} type='image/webp'/>
+            <source srcSet={HeaderPacientesPng} type='image/png'/> 
+            <img src={HeaderPacientesPng} alt="Frontpage Therapy" />
+            </picture>
+        </div>
+          <h3>Administrador de Pacientes con React</h3>
           <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
           <a href="https://github.com/estebanmarquez1/therapywebsite" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
         </article>
