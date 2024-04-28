@@ -2,8 +2,10 @@ import './experience.css'
 import {IoLogoJavascript, IoLogoCss3} from 'react-icons/io'
 import { SiTailwindcss, SiPhp} from "react-icons/si";
 import {GrReactjs} from 'react-icons/gr'
+import { SiAstro } from "react-icons/si";
 import {FaSass} from 'react-icons/fa'
 import MysqlIconPng from '../../assets/mysql-icon.svg'
+import AstroIconPng from '../../assets/astro-icon.png'
 
 const Experience = () => {
   return (
@@ -51,6 +53,14 @@ const Experience = () => {
             <SiTailwindcss className='experience__details-icon react'/>
               <div>
               <h4>Tailwind CSS</h4>
+              <p className='sentence'>Experimentado</p>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <img src={AstroIconPng}/>
+              <div>
+              <h4>Astro</h4>
               <p className='sentence'>Experimentado</p>
               </div>
             </article>
