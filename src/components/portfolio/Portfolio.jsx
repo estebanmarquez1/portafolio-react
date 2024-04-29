@@ -3,7 +3,7 @@ import './portfolio.css'
 import {TbWorld} from 'react-icons/tb'
 import {FaGithub} from 'react-icons/fa'
 import {FaSass} from 'react-icons/fa'
-import {SiPhp} from 'react-icons/si'
+import {SiPhp, SiTypescript} from 'react-icons/si'
 import {GrReactjs} from 'react-icons/gr'
 import HeaderBienesRaicesWebp from '../../assets/headerBienesRaices.webp'
 import HeaderBienesRaicesPng from '../../assets/headerBienesRaices.png'
@@ -116,6 +116,7 @@ import Modal from '../modal/Modal'
           <div className='portfolio__item-description'>
               <div className='portfolio__item-techIcons'>
                 <GrReactjs className='experience__details-icon react'/>
+                <SiTypescript className='experience__details-icon react'/>
               </div>
               <a href="https://github.com/estebanmarquez1/GuitarLA-TypeScript" className="btn btn-primary">
                 Descripción
