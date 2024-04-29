@@ -3,7 +3,7 @@
     border-radius: 2rem;
     width: 20rem;
     /* height: 10rem; */
-    /* font-size: .5rem; */
+    font-size: .7rem;
     @media (min-width: 768px) {
         width: 50rem;
         height: 40rem;
