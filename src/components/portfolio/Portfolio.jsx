@@ -61,7 +61,7 @@ import Modal from '../modal/Modal'
             </picture>
         </div>
           <h3>Bienes Raíces</h3>
-           <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+           <a href="http://18.209.4.56/" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
           <a href="https://github.com/estebanmarquez1/bienesraices" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a> 
           
               
@@ -86,7 +86,7 @@ import Modal from '../modal/Modal'
             </picture>
         </div>
           <h3>Página para terapeuta</h3>
-          <a href="#" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
+          <a href="http://34.229.58.22/" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
           <a href="https://github.com/estebanmarquez1/therapywebsite" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
         </article>
 
@@ -96,6 +96,9 @@ import Modal from '../modal/Modal'
               <div className='portfolio__item-techIcons'>
                 <GrReactjs className='experience__details-icon react'/>
               </div>
+              <a href="https://github.com/estebanmarquez1/administradorPacientes" className="btn btn-primary">
+                Descripción
+              </a>
             </div>
         <picture>
             <source srcSet={HeaderPacientesWebp} type='image/webp'/>
@@ -114,6 +117,9 @@ import Modal from '../modal/Modal'
               <div className='portfolio__item-techIcons'>
                 <GrReactjs className='experience__details-icon react'/>
               </div>
+              <a href="https://github.com/estebanmarquez1/GuitarLA-TypeScript" className="btn btn-primary">
+                Descripción
+              </a>
             </div>
         <picture>
             <source srcSet={HeaderTiendaWebp} type='image/webp'/>
@@ -125,9 +131,6 @@ import Modal from '../modal/Modal'
           <a href="https://fluffy-sfogliatella-c91513.netlify.app/" className="btn" target='_blank'><TbWorld className='portfolio__item-icon'/>Website</a>
           <a href="https://github.com/estebanmarquez1/GuitarLA-TypeScript" className="btn btn-primary" target='_blank'><FaGithub/>Repository</a>
         </article>
-
-
-
 
       </div>
             {modal && <Modal id={selectedModalId} onClose={closeModal}/>}

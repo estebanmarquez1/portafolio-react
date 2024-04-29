@@ -1,8 +1,14 @@
 .portfolio__item-modal {
     overflow-y: scroll;
     border-radius: 2rem;
-    width: 50rem;
-    height: 40rem;
+    width: 20rem;
+    /* height: 10rem; */
+    /* font-size: .5rem; */
+    @media (min-width: 768px) {
+        width: 50rem;
+        height: 40rem;
+        font-size: 1.2rem;
+    }
     background-color: var(--color-white);
     border: 1px solid var(--color-primary-variant);
     & p {

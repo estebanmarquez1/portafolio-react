@@ -32,7 +32,7 @@ const Modal = ({id, onClose}) => {
   return (
     <div className='portfolio__item-modal'>
     <div className='portfolio__item-modal--container'>
-
+    
         <div className="portfolio__item-modal--image" >
                 <picture>
                 <source srcSet={id === 'bienesraices' ? data.bienesraices.imagewebp[0] : data.arttherapywebsite.imagewebp[0]} type='image/webp'/>

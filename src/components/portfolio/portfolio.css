@@ -26,6 +26,8 @@
 
 .portfolio__item-image {
     overflow: hidden;
+    width: 320px;
+    height: 265px;
     position: relative;
 }
 
