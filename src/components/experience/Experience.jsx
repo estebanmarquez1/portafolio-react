@@ -21,7 +21,6 @@ const Experience = () => {
             <IoLogoCss3 className='experience__details-icon css'/>
               <div>
               <h4>CSS</h4>
-              <p className='sentence'>Experimentado</p>
               </div>
             </article>
 
@@ -29,7 +28,6 @@ const Experience = () => {
             <IoLogoJavascript className='experience__details-icon javascript'/>
               <div>
               <h4>Javascript</h4>
-              <p className='sentence'>Intermedio</p>
               </div>
             </article>
 
@@ -37,7 +35,6 @@ const Experience = () => {
             <GrReactjs className='experience__details-icon react'/>
               <div>
               <h4>React</h4>
-              <p className='sentence'>Intermedio</p>
               </div>
             </article>
 
@@ -45,7 +42,6 @@ const Experience = () => {
             <FaSass className='experience__details-icon sass'/>
               <div>
               <h4>Sass</h4>
-              <p className='sentence'>Experimentado</p>
               </div>
             </article>
 
@@ -53,7 +49,6 @@ const Experience = () => {
             <SiTailwindcss className='experience__details-icon react'/>
               <div>
               <h4>Tailwind CSS</h4>
-              <p className='sentence'>Experimentado</p>
               </div>
             </article>
 
@@ -61,7 +56,6 @@ const Experience = () => {
             <img src={AstroIconPng}/>
               <div>
               <h4>Astro</h4>
-              <p className='sentence'>Experimentado</p>
               </div>
             </article>
           </div>
@@ -74,7 +68,6 @@ const Experience = () => {
             <SiPhp className='experience__details-icon php'/>
               <div>
               <h4>PHP</h4>
-              <p className='sentence'>Intermedio</p>
               </div>
             </article>
 
@@ -82,7 +75,6 @@ const Experience = () => {
             <img src={MysqlIconPng} className='mysql-icon' alt='mysql-icon'/>
               <div>
               <h4>MySQL</h4>
-              <p className='sentence'>Experimentado</p>
               </div>
             </article>
           </div>

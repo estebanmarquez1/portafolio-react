@@ -93,9 +93,17 @@
 @media screen and (max-width: 600px) {
     .experience__container {
         gap: 1rem;
+        padding: 0 1rem;  /* Add padding on the sides */
     }
-    .experience__container>div {
-        width: 100%;
+    .experience__container > div {
+        width: 80%;
         padding: 2rem 1rem;
+        margin: 0.5rem auto;  /* Add margin between containers */
+    }
+    
+    .experience__content {
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding: 0.5rem;  /* Add some internal padding */
     }
 }

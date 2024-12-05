@@ -1,8 +1,8 @@
 .contact__container {
-    width: 58%;
+    width: 80%;  /* Increase the overall container width */
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 35% 55%;  /* Adjust columns ratio */
+    gap: 10%;
     padding: 2rem;
 }
 
@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    width: 100%;  /* Ensure full width of the container */
 }
 
 .contact__option {
@@ -62,20 +63,47 @@ textarea {
 }
 
 /* ==== Media Queries (Medium devices) */
-
 @media screen and (max-width: 1024px) {
     .contact__container {
+        width: 90%;
         grid-template-columns: 1fr;
         gap: 2rem;
+        padding: 1rem;
     }
 
+    .contact__options {
+        width: 100%;
+    }
 }
 
-
 /* ==== Media Queries (Small devices) */
-
 @media screen and (max-width: 600px) {
     .contact__container {
-        width: var(--container-width-sm);
+        width: 95%;  
+        padding: 1rem;
+    }
+
+    .contact__options {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    
+    input, 
+    textarea {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .contact__option {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact__option h5 {
+        font-size: 0.9rem;
     }
 }
